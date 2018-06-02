@@ -15,5 +15,12 @@
         "psr-4": {
             "Azizur\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azizur\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
