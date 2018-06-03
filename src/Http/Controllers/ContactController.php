@@ -7,7 +7,7 @@ use Azizur\Contact\Models\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 use Azizur\Contact\Mail\ContactMailable;
-// modify contact page name
+// modify contact page name for vendor
 class ContactController extends Controller
 {
     public function index()
