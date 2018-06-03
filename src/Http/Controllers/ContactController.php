@@ -7,12 +7,12 @@ use Azizur\Contact\Models\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 use Azizur\Contact\Mail\ContactMailable;
-
+// modify contact page name
 class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact::contact_form');
+        return view('contact::contact');
     }
     public function send(Request $request)
     {
